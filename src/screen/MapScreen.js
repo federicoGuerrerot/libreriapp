@@ -3,7 +3,6 @@ import { View, Text, StyleSheet } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 import * as Location from 'expo-location';
 
-// pantalla para mostrar la ubicacion del usuario
 const MapScreen = ({navigation, route}) => {
     const [location, setLocation] = useState(null);
 
